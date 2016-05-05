@@ -20,14 +20,11 @@ vendor/lib/liblbs_core.so
 vendor/firmware/libpn547_fw.so
 
 # Qualcomm framework
-lib/libmdmdetect.so
 lib/libperipheral_client.so
-vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
-vendor/lib/libnetmgr.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqdi.so
 vendor/lib/libqmi.so
@@ -41,14 +38,19 @@ vendor/lib/libqmiservices.so
 # Radio
 bin/efsks
 bin/ks
+bin/netmgrd
 bin/qcks
 bin/qmuxd
 bin/rfs_access
 bin/rild
 bin/rmt_storage
+lib/libmdmdetect.so
+lib/libprotobuf-cpp-full.so
 lib/libreference-ril.so
 lib/libril.so
 lib/libsec-ril.so
 lib/libsecnativefeature.so
 lib/libsecril-client.so
+vendor/lib/libconfigdb.so
 vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/libnetmgr.so
